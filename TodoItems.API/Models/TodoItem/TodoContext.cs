@@ -10,6 +10,6 @@ namespace WebApplication1.Models
         {
         }
 
-        public DbSet<TodoItem> TodoItems { get; set; } = null!;
+        public DbSet<TodoItemModel> TodoItems { get; set; } = null!;
     }
 }
